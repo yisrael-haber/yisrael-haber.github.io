@@ -1,0 +1,39 @@
+body {
+    background: #766C7F;
+}
+
+header {
+    margin-top: 0.1em;
+    margin-bottom: 4em;
+}
+
+.top-nav-bar {
+    background-color: #766C7F;
+    padding: 0.5em 1em;
+    border-bottom: 0.35em solid black;
+    border-color: #412647;
+    margin-bottom: 0.5em;
+    margin-top: -1em;
+    line-height: 2em;
+}
+
+a:link, a:visited {
+    background-color: #766C7F;
+    color: #808D8E;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+a:hover, a:active {
+    background-color: #947EB0;
+    color: #A9D2D5;
+    border-radius: 0.25em;
+    padding: 5px 10px;
+}
+
+header h1 {
+    padding: -1em -1em;
+    line-height: 1em;
+}

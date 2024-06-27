@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/main_body.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
 </head>
 
 <body>
@@ -10,6 +11,7 @@
         <div class="top-nav-bar">
             <h1 align="center">
                 <ul>
+                    <a href="https://github.com/yisrael-haber/yisrael-haber.github.io">Repo</a>
                     <a href="https://yisrael.dev">yisrael.dev</a>
                     <a href="https://github.com/yisrael-haber">Github</a>
                     <a href="https://linkedin.com/in/yisrael-haber-69bbb7187/">Linkedin</a>
@@ -17,7 +19,22 @@
             </h1>
         </div>
     </header>
-    <p>My first paragraph.</p>
+    <p>
+        <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+        <!-- Load the element definition -->
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+        <!-- Simply set the `src` attribute to your MD file and win -->
+        <zero-md src="README.md">
+            <template>
+                <style>h1,h2,h3,h4 { border-bottom: 0; font-family: 'Rubik'} </style>
+            </template>
+        </zero-md>
+
+    </p>
 </body>
 
 </html>

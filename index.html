@@ -26,7 +26,7 @@
 
         <!-- Load the element definition -->
         <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
-        
+
 
         <div class="pin-right">
             <zero-md src="markdown/right-side-nav-bar.md">
@@ -42,8 +42,21 @@
                     </style>
                 </template>
             </zero-md>
-            <div class="side-nav-bar-image-list">
+            <div>
                 <ul>
+                    <style>
+                        li {
+                            list-style-type: none;
+                            position: relative;
+                            right: 0;
+                        }
+                        li img {
+                            position: relative;
+                            right: 0;
+                            padding-right: -5em;
+                            margin: 1em 1em;
+                        }
+                    </style>
                     <li><img src="sources/python.svg" style="width:15em;"></li>
                     <li><img src="sources/apache-spark.svg" style="width:20em;"></li>
                     <li><img src="sources/docker.svg" style="width:12em;"></li>
